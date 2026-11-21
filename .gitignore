@@ -23,5 +23,7 @@ node_modules/
 # Внешний симулятор (клон ElastiSim с GitHub)
 elastisim/
 
-# База заметок источников (Obsidian-вьюер, PDF статей)
+# Граф знаний источников (Obsidian-вьюер, заметки)
+knowledge_graph/
+# PDF статей и исходные материалы
 papers/
