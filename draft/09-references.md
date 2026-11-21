@@ -90,3 +90,4 @@
 85. Schrage L. Solving resource-constrained network problems by implicit enumeration — nonpreemptive case // Operations Research. – 1970. – Vol. 18. – № 2. – P. 263-278. – doi:10.1287/opre.18.2.263.
 86. Fotakis D., Matuschke J., Papadigenopoulos O. A constant-factor approximation for generalized malleable scheduling under M♮-concave processing speeds // arXiv:2111.06733 [cs.DM]. – 2021.
 87. Shmoys D. B., Tardos É. An approximation algorithm for the generalized assignment problem // Mathematical Programming. – 1993. – Vol. 62. – № 3. – P. 461-474.
+88. Dokka T., Goerigk M. The multi-level bottleneck assignment problem: complexity and solution methods // arXiv:1910.12504 [cs.CC]. – 2019. – 23 p.
