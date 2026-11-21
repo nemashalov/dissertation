@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-figs/
+.venv-sim/
+
+# Node
+node_modules/
+
+# Nessy / viewer
+.nessy/
+.nessy-viewer.log
+.DS_Store
+
+# LibreOffice / сборка ГОСТ (временные)
+*.pdf.tmp
+
+# Собранные docx-артефакты (пересобираются конвейером из markdown)
+# раскомментируйте, если не хотите хранить готовые docx в git:
+# Диссертация Машалов*.docx
+# Автореферат Машалов.docx
+# Внешний симулятор (клон ElastiSim с GitHub)
+elastisim/

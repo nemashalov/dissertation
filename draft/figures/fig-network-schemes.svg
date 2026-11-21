@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <marker id="arr3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6366f1"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#1c1e21">Схемы построения сетей</text>
+
+  <!-- Панель 1: одноранговая -->
+  <rect x="30" y="48" width="290" height="380" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="175" y="74" text-anchor="middle" font-size="14" font-weight="bold" fill="#1c1e21">Одноранговая сеть</text>
+  <text x="175" y="92" text-anchor="middle" font-size="11" fill="#6b7280">все узлы равны в доступе к ресурсам</text>
+  <g fill="#dbeafe" stroke="#2563eb" stroke-width="2">
+    <rect x="60" y="130" width="90" height="44" rx="8"/>
+    <rect x="200" y="130" width="90" height="44" rx="8"/>
+    <rect x="60" y="280" width="90" height="44" rx="8"/>
+    <rect x="200" y="280" width="90" height="44" rx="8"/>
+  </g>
+  <text x="105" y="154" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e40af">Узел 1</text>
+  <text x="245" y="154" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e40af">Узел 2</text>
+  <text x="105" y="304" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e40af">Узел 3</text>
+  <text x="245" y="304" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e40af">Узел 4</text>
+  <!-- связи -->
+  <line x1="150" y1="152" x2="200" y2="152" stroke="#6366f1" stroke-width="2" marker-end="url(#arr3)"/>
+  <line x1="245" y1="174" x2="245" y2="280" stroke="#6366f1" stroke-width="2" marker-end="url(#arr3)"/>
+  <line x1="150" y1="280" x2="105" y2="174" stroke="#6366f1" stroke-width="2" marker-end="url(#arr3)"/>
+  <line x1="105" y1="174" x2="200" y2="280" stroke="#6366f1" stroke-width="2" marker-end="url(#arr3)"/>
+  <text x="175" y="380" text-anchor="middle" font-size="11" font-style="italic" fill="#6b7280">10–20 компьютеров</text>
+
+  <!-- Панель 2: с выделенными серверами -->
+  <rect x="335" y="48" width="290" height="380" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="480" y="74" text-anchor="middle" font-size="14" font-weight="bold" fill="#1c1e21">Сеть с выделенными серверами</text>
+  <text x="480" y="92" text-anchor="middle" font-size="11" fill="#6b7280">клиенты и специализированные серверы</text>
+  <g fill="#dbeafe" stroke="#2563eb" stroke-width="2">
+    <rect x="60" y="130" width="80" height="40" rx="8"/>
+    <rect x="195" y="130" width="80" height="40" rx="8"/>
+    <rect x="130" y="230" width="80" height="40" rx="8"/>
+    <rect x="260" y="230" width="80" height="40" rx="8"/>
+    <rect x="120" y="330" width="80" height="40" rx="8"/>
+  </g>
+  <rect x="390" y="190" width="170" height="66" rx="8" fill="#eef2ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="475" y="216" text-anchor="middle" font-size="13" font-weight="bold" fill="#3730a3">Сервер</text>
+  <text x="475" y="236" text-anchor="middle" font-size="11" fill="#3730a3">обслуживает запросы</text>
+  <!-- клиенты слева -->
+  <g transform="translate(365,0)">
+    <text x="100" y="154" text-anchor="middle" font-size="12" fill="#1e40af">Кл. 1</text>
+    <text x="235" y="154" text-anchor="middle" font-size="12" fill="#1e40af">Кл. 2</text>
+    <text x="170" y="254" text-anchor="middle" font-size="12" fill="#1e40af">Кл. 3</text>
+    <text x="300" y="254" text-anchor="middle" font-size="12" fill="#1e40af">Кл. 4</text>
+    <text x="160" y="354" text-anchor="middle" font-size="12" fill="#1e40af">Кл. 5</text>
+  </g>
+  <!-- связи к серверу -->
+  <g stroke="#6366f1" stroke-width="2">
+    <line x1="140" y1="150" x2="390" y2="210" marker-end="url(#arr3)"/>
+    <line x1="275" y1="150" x2="390" y2="215" marker-end="url(#arr3)"/>
+    <line x1="210" y1="250" x2="390" y2="235" marker-end="url(#arr3)"/>
+    <line x1="340" y1="250" x2="395" y2="245" marker-end="url(#arr3)"/>
+    <line x1="200" y1="350" x2="390" y2="255" marker-end="url(#arr3)"/>
+  </g>
+  <text x="480" y="380" text-anchor="middle" font-size="11" font-style="italic" fill="#6b7280">серверные и клиентские ОС</text>
+
+  <!-- Панель 3: гибридная -->
+  <rect x="640" y="48" width="290" height="380" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="785" y="74" text-anchor="middle" font-size="14" font-weight="bold" fill="#1c1e21">Гибридная сеть</text>
+  <text x="785" y="92" text-anchor="middle" font-size="11" fill="#6b7280">клиент-сервер + одноранговые связи</text>
+  <g fill="#dbeafe" stroke="#2563eb" stroke-width="2">
+    <rect x="690" y="130" width="90" height="40" rx="8"/>
+    <rect x="820" y="130" width="90" height="40" rx="8"/>
+    <rect x="690" y="260" width="90" height="40" rx="8"/>
+    <rect x="820" y="260" width="90" height="40" rx="8"/>
+  </g>
+  <rect x="740" y="190" width="110" height="52" rx="8" fill="#eef2ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="795" y="213" text-anchor="middle" font-size="12" font-weight="bold" fill="#3730a3">Сервер</text>
+  <text x="795" y="229" text-anchor="middle" font-size="10" fill="#3730a3">обслуживает запросы</text>
+  <text x="735" y="154" text-anchor="middle" font-size="11" fill="#1e40af">Узел</text>
+  <text x="865" y="154" text-anchor="middle" font-size="11" fill="#1e40af">Узел</text>
+  <text x="735" y="284" text-anchor="middle" font-size="11" fill="#1e40af">Узел</text>
+  <text x="865" y="284" text-anchor="middle" font-size="11" fill="#1e40af">Узел</text>
+  <g stroke="#6366f1" stroke-width="2">
+    <line x1="735" y1="170" x2="760" y2="190" marker-end="url(#arr3)"/>
+    <line x1="865" y1="170" x2="830" y2="190" marker-end="url(#arr3)"/>
+    <line x1="735" y1="260" x2="760" y2="242" marker-end="url(#arr3)"/>
+    <line x1="865" y1="260" x2="830" y2="242" marker-end="url(#arr3)"/>
+    <line x1="735" y1="170" x2="865" y2="260" stroke="#059669" marker-end="url(#arr3)"/>
+    <line x1="865" y1="170" x2="735" y2="260" stroke="#059669" marker-end="url(#arr3)"/>
+  </g>
+  <text x="785" y="380" text-anchor="middle" font-size="11" font-style="italic" fill="#6b7280">обычно большие сети</text>
+</svg>
