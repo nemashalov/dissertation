@@ -22,3 +22,6 @@ node_modules/
 # Автореферат Машалов.docx
 # Внешний симулятор (клон ElastiSim с GitHub)
 elastisim/
+
+# База заметок источников (Obsidian-вьюер, PDF статей)
+papers/
